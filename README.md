@@ -86,5 +86,5 @@ Run src/data_preprocessing.py to preprocess the data and handle missing values.
 ### Model Performance
 | Model                | Accuracy | Precision (Weighted) | Recall (Weighted) | F1-Score (Weighted) |
 |----------------------|----------|-----------------------|-------------------|---------------------|
-| Logistic Regression  | 75.3%    | 0.75                  | 0.75              | 0.75                |
+| Logistic Regression  | 75.3%    | 0.76                 | 0.75              | 0.75                |
 | Random Forest        | 76.0%    | 0.78                  | 0.76              | 0.76                |
