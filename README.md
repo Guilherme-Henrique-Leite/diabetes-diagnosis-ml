@@ -8,7 +8,6 @@ This project demonstrates the application of machine learning techniques to pred
 - [Project Structure](#project-structure)
 - [How to Run](#how-to-run)
 - [Results](#results)
-- [Conclusion](#conclusion)
 
 ## Overview
 
@@ -103,10 +102,3 @@ F1-Score: 0.76 (weighted average)
 
 Confusion Matrix:
 The Random Forest model demonstrated better performance in classifying diabetic cases.
-
-## Conclusion
-This project highlights the power of machine learning in predicting diabetes. The use of SMOTE was crucial in addressing class imbalance, which improved the model's ability to predict minority class instances. While the models performed well, further improvements can be made by:
-
-Exploring additional features or datasets.
-Tuning hyperparameters using techniques such as Grid Search or Random Search.
-Trying other algorithms like Gradient Boosting or Neural Networks.
