@@ -40,8 +40,8 @@ diabetes-prediction/
 │
 ├── src/
 │   ├── data_preprocessing.py
-│   ├── regression_model.py
 │   ├── random_forest_model.py
+│   ├── regression_model.py
 │
 ├── requirements.txt
 ├── README.md
