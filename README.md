@@ -90,7 +90,7 @@ Random Forest:
   - Recall: 0.76 (weighted average)
   - F1-Score: 0.76 (weighted average)
 
-Results
+## Results
 Model Performance:
 Logistic Regression:
 Accuracy: 75.3%
@@ -100,10 +100,11 @@ Accuracy: 76.0%
 Precision: 0.78 (weighted average)
 Recall: 0.76 (weighted average)
 F1-Score: 0.76 (weighted average)
+
 Confusion Matrix:
 The Random Forest model demonstrated better performance in classifying diabetic cases.
 
-Conclusion
+## Conclusion
 This project highlights the power of machine learning in predicting diabetes. The use of SMOTE was crucial in addressing class imbalance, which improved the model's ability to predict minority class instances. While the models performed well, further improvements can be made by:
 
 Exploring additional features or datasets.
