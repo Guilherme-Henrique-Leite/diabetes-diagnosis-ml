@@ -93,7 +93,7 @@ The project uses Python libraries such as `Pandas`, `Scikit-learn`, and `Imbalan
 
 ## Technologies
 
-- **Python** (v3.7+)
+- **Python** (v3.12+)
 - **Jupyter Notebook** (for model experimentation)
 - **Scikit-learn** (for machine learning algorithms)
 - **Imbalanced-learn** (for SMOTE oversampling)
