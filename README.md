@@ -89,12 +89,3 @@ Run src/data_preprocessing.py to preprocess the data and handle missing values.
 |----------------------|----------|-----------------------|-------------------|---------------------|
 | Logistic Regression  | 75.3%    | 0.75                  | 0.75              | 0.75                |
 | Random Forest        | 76.0%    | 0.78                  | 0.76              | 0.76                |
-
-### Confusion Matrix
-Below is the confusion matrix for the **Random Forest Model**:
-
-![Confusion Matrix](https://via.placeholder.com/400x200.png?text=Confusion+Matrix)
-
-### Visualization
-ROC curve for both models:
-![ROC Curve](https://via.placeholder.com/600x300.png?text=ROC+Curve)
