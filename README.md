@@ -55,7 +55,7 @@ diabetes-prediction/
 To start working with the project, clone this repository to your local machine:
 
 ```
-git clone https://github.com/yourusername/diabetes-prediction.git
+git clone https://github.com/Guilherme-Henrique-Leite/diabetes-diagnosis-ml.git
 cd diabetes-prediction
 ```
 
