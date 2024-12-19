@@ -9,7 +9,6 @@ This project demonstrates the application of machine learning techniques to pred
 - [How to Run](#how-to-run)
 - [Results](#results)
 - [Conclusion](#conclusion)
-- [Contact](#contact)
 
 ## Overview
 
@@ -35,13 +34,20 @@ The project uses Python libraries such as `Pandas`, `Scikit-learn`, and `Imbalan
 ## Project Structure
 
 The project is organized as follows:
-
-### Files Breakdown:
-- `data/`: Contains the raw dataset for the diabetes prediction.
-- `notebooks/`: Jupyter notebooks for data exploration, preprocessing, model training, and evaluation.
-- `src/`: Contains Python scripts for data preprocessing (`preprocessing.py`), models training and any utility functions.
-- `requirements.txt`: Lists the required Python libraries and dependencies to run the project.
-- `.gitignore`: Specifies files and directories that should not be tracked by Git, such as virtual environments and cache files.
+```
+diabetes-prediction/
+├── notebooks/
+│   └── diabetes_diagnosis_ml.ipynb
+│
+├── src/
+│   ├── data_preprocessing.py
+│   ├── regression_model.py
+│   ├── random_forest_model.py
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
 
 ## How to Run
 
@@ -72,7 +78,7 @@ You can either run the Jupyter notebook for model exploration or use the Python 
 Option 1: Open the notebook notebooks/diabetes_prediction_notebook.ipynb and run each cell to explore the model's performance.
 Option 2: Use the Python scripts in the src/ folder to preprocess the data and train the models:
 ```
-Run src/preprocessing.py to preprocess the data and handle missing values.
+Run src/data_preprocessing.py to preprocess the data and handle missing values.
 ```
 
 Logistic Regression: The model achieved an accuracy of 75.3%, with a precision, recall, and F1-score that showed a good balance between the two classes.
@@ -84,6 +90,22 @@ Random Forest:
   - Recall: 0.76 (weighted average)
   - F1-Score: 0.76 (weighted average)
 
+Results
+Model Performance:
+Logistic Regression:
+Accuracy: 75.3%
+Precision, Recall, F1-Score: Balanced performance across both classes.
+Random Forest:
+Accuracy: 76.0%
+Precision: 0.78 (weighted average)
+Recall: 0.76 (weighted average)
+F1-Score: 0.76 (weighted average)
+Confusion Matrix:
+The Random Forest model demonstrated better performance in classifying diabetic cases.
 
 Conclusion
-The project demonstrates the effectiveness of machine learning techniques in predicting diabetes. While the models performed well, further improvements could be made by exploring additional feature engineering techniques or hyperparameter tuning. The use of SMOTE was essential in balancing the imbalanced dataset, which resulted in better performance on minority class prediction.
+This project highlights the power of machine learning in predicting diabetes. The use of SMOTE was crucial in addressing class imbalance, which improved the model's ability to predict minority class instances. While the models performed well, further improvements can be made by:
+
+Exploring additional features or datasets.
+Tuning hyperparameters using techniques such as Grid Search or Random Search.
+Trying other algorithms like Gradient Boosting or Neural Networks.
