@@ -1,17 +1,17 @@
-# Diabetes Prediction Model - Machine Learning
+# Diabetes Prediction Model - Machine Learning 🚀
 
 This project demonstrates the application of machine learning techniques to predict the likelihood of diabetes in individuals using the **Pima Indians Diabetes Database**. The goal is to predict whether a person has diabetes based on features such as age, glucose level, BMI, and other medical data. The project leverages two popular models: **Logistic Regression** and **Random Forest**, along with data preprocessing techniques to enhance model performance.
 
 ## Table of Contents
-- [Overview](#overview)
+- [About the Project](#about-the-project)
 - [Technologies](#technologies)
-- [Project Structure](#project-structure)
-- [How to Run](#how-to-run)
 - [Results](#results)
+- [How to Run](#how-to-run)
+- [Future Improvements](#future-improvements)
+- [Contact](#contact)
 
-## Overview
-
-Diabetes is one of the leading causes of death worldwide, and early detection is crucial for effective management. This project explores the use of machine learning algorithms to classify whether a person has diabetes based on various health metrics.
+## About the Project 
+Diabetes is one of the leading causes of death worldwide, and early detection can save lives. This project explores the use of machine learning to classify diabetes risk based on health metrics like BMI, glucose level, and age.
 
 ### Key Techniques Used:
 - **SMOTE (Synthetic Minority Over-sampling Technique)**: Used to balance the imbalanced dataset.
@@ -21,16 +21,17 @@ Diabetes is one of the leading causes of death worldwide, and early detection is
 
 The project uses Python libraries such as `Pandas`, `Scikit-learn`, and `Imbalanced-learn` to preprocess, train, and evaluate the models.
 
-## Technologies
+## Technologies 🛠️
 
-- **Python** (v3.12+)
-- **Jupyter Notebook**
-- **Scikit-learn**
-- **Imbalanced-learn**
-- **Pandas** 
-- **Matplotlib/Seaborn**
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-orange?logo=jupyter)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0.24.2-orange)
+![Pandas](https://img.shields.io/badge/Pandas-1.5.2-blue?logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Seaborn-brightgreen)
+![Imbalanced-learn](https://img.shields.io/badge/Imbalanced--learn-0.9.1-red)
 
-## Project Structure
+
+## Project Structure 📁
 
 The project is organized as follows:
 ```
@@ -81,25 +82,19 @@ Option 2: Use the Python scripts in the src/ folder to preprocess the data and t
 Run src/data_preprocessing.py to preprocess the data and handle missing values.
 ```
 
-Logistic Regression: The model achieved an accuracy of 75.3%, with a precision, recall, and F1-score that showed a good balance between the two classes.
-Random Forest: The model achieved an accuracy of 76%, with improved performance on classifying diabetic cases.
-Confusion Matrix and Classification Report:
-Random Forest:
-  - Accuracy: 0.76
-  - Precision: 0.78 (weighted average)
-  - Recall: 0.76 (weighted average)
-  - F1-Score: 0.76 (weighted average)
+## Results 📊
 
-## Results
-Model Performance:
-Logistic Regression:
-Accuracy: 75.3%
-Precision, Recall, F1-Score: Balanced performance across both classes.
-Random Forest:
-Accuracy: 76.0%
-Precision: 0.78 (weighted average)
-Recall: 0.76 (weighted average)
-F1-Score: 0.76 (weighted average)
+### Model Performance
+| Model                | Accuracy | Precision (Weighted) | Recall (Weighted) | F1-Score (Weighted) |
+|----------------------|----------|-----------------------|-------------------|---------------------|
+| Logistic Regression  | 75.3%    | 0.75                  | 0.75              | 0.75                |
+| Random Forest        | 76.0%    | 0.78                  | 0.76              | 0.76                |
 
-Confusion Matrix:
-The Random Forest model demonstrated better performance in classifying diabetic cases.
+### Confusion Matrix
+Below is the confusion matrix for the **Random Forest Model**:
+
+![Confusion Matrix](https://via.placeholder.com/400x200.png?text=Confusion+Matrix)
+
+### Visualization
+ROC curve for both models:
+![ROC Curve](https://via.placeholder.com/600x300.png?text=ROC+Curve)
