@@ -28,6 +28,3 @@ x_train, x_test, y_train, y_test = train_test_split(x_scaled, y, test_size=0.2, 
 smote = SMOTE(random_state=42)
 
 x_train_smote, y_train_smote = smote.fit_resample(x_train, y_train)
-
-print(f"Size of X_train_smote: {x_train_smote.shape}")
-print(f"Size of y_train_smote: {y_train_smote.shape}")
