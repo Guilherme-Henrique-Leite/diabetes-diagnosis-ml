@@ -75,6 +75,7 @@ Install the required dependencies:
 You can either run the Jupyter notebook for model exploration or use the Python scripts for data preprocessing and model training:
 
 Option 1: Open the notebook notebooks/diabetes_prediction_notebook.ipynb and run each cell to explore the model's performance.
+
 Option 2: Use the Python scripts in the src/ folder to preprocess the data and train the models:
 ```
 Run src/data_preprocessing.py to preprocess the data and handle missing values.
