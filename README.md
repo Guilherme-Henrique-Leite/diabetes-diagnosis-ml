@@ -25,7 +25,7 @@ The project uses Python libraries such as `Pandas`, `Scikit-learn`, and `Imbalan
 
 ## Technologies
 
-- **Python** (v3.7+)
+- **Python** (v3.12+)
 - **Jupyter Notebook** (for model experimentation)
 - **Scikit-learn** (for machine learning algorithms)
 - **Imbalanced-learn** (for SMOTE oversampling)
@@ -64,6 +64,7 @@ It is recommended to use a virtual environment to manage dependencies. If you're
 Install the required dependencies:
   ```
   - pip install -r requirements.txt
+  ```
 
 3. Run the Project
 You can either run the Jupyter notebook for model exploration or use the Python scripts for data preprocessing and model training:
