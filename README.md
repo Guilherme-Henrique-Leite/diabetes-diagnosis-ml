@@ -1,4 +1,4 @@
-# Diabetes Prediction Model - Machine Learning 🚀
+# Diabetes Prediction Model - Machine Learning
 
 This project demonstrates the application of machine learning techniques to predict the likelihood of diabetes in individuals using the **Pima Indians Diabetes Database**. The goal is to predict whether a person has diabetes based on features such as age, glucose level, BMI, and other medical data. The project leverages two popular models: **Logistic Regression** and **Random Forest**, along with data preprocessing techniques to enhance model performance.
 
