@@ -4,7 +4,8 @@ This project demonstrates the application of machine learning techniques to pred
 
 ## Table of Contents
 - [About the Project](#about-the-project)
-- [Technologies](#technologies🛠️)
+- [Technologies](#technologies-%EF%B8%8F)
+- [Project Structure](#project-structure-)
 - [How to Run](#how-to-run)
 - [Results](#results)
 
