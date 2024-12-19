@@ -7,7 +7,7 @@ This project demonstrates the application of machine learning techniques to pred
 - [Technologies](#technologies-%EF%B8%8F)
 - [Project Structure](#project-structure-)
 - [How to Run](#how-to-run)
-- [Results](#results)
+- [Results](#results-)
 
 ## About the Project 
 Diabetes is one of the leading causes of death worldwide, and early detection can save lives. This project explores the use of machine learning to classify diabetes risk based on health metrics like BMI, glucose level, and age.
