@@ -24,11 +24,11 @@ The project uses Python libraries such as `Pandas`, `Scikit-learn`, and `Imbalan
 ## Technologies
 
 - **Python** (v3.12+)
-- **Jupyter Notebook** (for model experimentation)
-- **Scikit-learn** (for machine learning algorithms)
-- **Imbalanced-learn** (for SMOTE oversampling)
-- **Pandas** (for data manipulation)
-- **Matplotlib/Seaborn** (for data visualization)
+- **Jupyter Notebook**
+- **Scikit-learn**
+- **Imbalanced-learn**
+- **Pandas** 
+- **Matplotlib/Seaborn**
 
 ## Project Structure
 
