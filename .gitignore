@@ -29,5 +29,5 @@ data/
 
 *.bak
 
-.DS_Store      # Para MacOS
-Thumbs.db      # Para Windows
+.DS_Store
+Thumbs.db
