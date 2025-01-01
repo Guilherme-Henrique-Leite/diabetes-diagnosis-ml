@@ -77,7 +77,7 @@ Option 1: Open the notebook notebooks/diabetes_diagnosis_ml.ipynb and run each c
 
 Option 2: Use the Python scripts in the src/ folder to preprocess the data and train the models:
 ```
-Run src/data_preprocessing.py to preprocess the data and handle missing values.
+Run src/data_preprocessing.py
 ```
 
 ## Results 📊
